@@ -1,11 +1,3 @@
-/*
-
-Tinker CSS Template
-
-https://templatemo.com/tm-506-tinker
-
-*/
-
 * {
     margin: 0;
     padding: 0;
@@ -25,6 +17,7 @@ p {
 	color: #7a7a7a;
 	font-size: 14px;
 	line-height: 24px;
+	padding-top: 20px;
 }
 
 .parallax-content {
@@ -85,7 +78,7 @@ p {
 }
 
 .navbar-nav>li {
-	margin-left: 45px;
+	margin-left: 25px;
 }
 
 .header .navbar-nav>li>a {
@@ -128,8 +121,19 @@ ul.nav a:hover {
     margin: 0;
     border: none;
 }
+
 .page-section {
+    height: 45vh;
     padding: 80px 0;
+}
+
+p>a:link {
+    color: #7a7a7a;
+    text-decoration: underline;
+}
+
+p>a:hover {
+    color:rgba(255, 67, 0, 0.8);
 }
 
 .navbar-inverse .navbar-toggle {
@@ -216,26 +220,35 @@ ul.nav a:hover {
 .line-dec-section {
     width: 200px;
     height: 2px;
-    background-color: rgba(255, 0, 0, 0.5);
+    background-color: rgba(255, 67, 0, 0.8);
+    margin: 10px auto 15px auto;
+}
+
+.line-dec-section-services {
+    width: 430px;
+    height: 2px;
+    background-color: rgba(255, 67, 0, 0.8);
+    margin: 10px auto 15px auto;
+}
+.line-dec-section-services-en {
+    width: 300px;
+    height: 2px;
+    background-color: rgba(255, 67, 0, 0.8);
     margin: 10px auto 15px auto;
 }
 
 #services {
     background-image: url(../img/gears_2.jpg);
-	padding: 0px 0px;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
-}
-
-.services-wrapper {
-    background-color: rgba(250, 250, 250, 0.85);
+	box-shadow:inset 0 0 0 2000px rgba(250, 250, 250, 0.85);
+	padding: 40px 0 30px;
 }
 
 
 #services .service-item {
 	text-align: center;
-
 }
 
 #services .service-item .icon {
@@ -244,7 +257,7 @@ ul.nav a:hover {
 	display: inline-block;
 	text-align: center;
 	line-height: 104px;
-	border: 2px solid #f74300;
+	border: 2px solid rgba(255, 67, 0, 0.8);
 	border-radius: 50%;
 }
 
@@ -257,18 +270,12 @@ ul.nav a:hover {
 	letter-spacing: 1px;
 }
 
-#services .service-item p {
-	color: #fff;
-	margin-top: 30px;
-}
-
-#services .service-item .primary-blue-button {
-	margin-top: 35px;
+.icons{
+    padding:30px;
 }
 
 #contact-us {
-	text-align: center;
-	padding: 80px 0px;
+    text-align: center;
     border-bottom: 1px solid rgb(220, 220, 220);
 }
 
@@ -282,6 +289,10 @@ ul.nav a:hover {
 
 #contact-us .section-heading p {
 	padding: 0px 15%;
+}
+
+.contacts {
+    padding:30px;
 }
 
 footer {
@@ -331,6 +342,10 @@ footer .logo-ft-at {
     letter-spacing: 1px;
 }
 
+.logo-ft-ot>p {
+    padding: 0;
+}
+
 .section-description {
     text-align: justify;
 }
@@ -361,6 +376,10 @@ footer .logo-ft-at {
 		padding-bottom: 20px;
 		border-bottom: 1px solid rgba(250, 250, 250, 0.1);
 	}
+
+	.page-section {
+        height: auto;
+    }
 
 }
 
