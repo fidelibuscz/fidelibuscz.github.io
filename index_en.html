@@ -1,19 +1,27 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0 maximum-scale=5.0"/>
+    <meta
+      name="description"
+      content="Distribution and production of spare part for bus, construction and railway transport."/>
     <title>Fidelibus</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preload" href="style.css" as="style" />
+    <link rel="stylesheet" href="style.css" />
 
-    <link rel="apple-touch-icon" href="apple-touch-icon.png">
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styling.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-
-
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      as="style"
+      rel="stylesheet preload prefetch"
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap"
+      type="text/css"
+      crossorigin="anonymous"/>
+    <script src="https://cdn.lordicon.com/libs/mssddfmo/lord-icon-2.1.0.js"></script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-1GDBF51BYY"></script>
     <script>
           window.dataLayer = window.dataLayer || [];
@@ -23,230 +31,135 @@
           gtag('config', 'G-1GDBF51BYY');
 
     </script>
-</head>
 
-<body>
-<div class="header">
-    <div class="container">
-        <nav class="navbar navbar-inverse" role="navigation">
-            <div class="navbar-header">
-                <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a href="#" class="navbar-brand scroll-top"><img src="img/fidel_11.png" width="250" class="img-responsive" alt="logo"></a>
+  </head>
+  <body id="home">
+    <div class="content sides-p-60">
+      <nav class="blur-10">
+        <a href="#home" class="nav-title"><span>F</span>IDELIBUS</a>
+        <div>
+          <a href="#about">About us</a>
+          <a href="#offer">Services</a>
+          <a href="#contact">Contact</a>
+          <a href="index.html">
+            <img src="static/language-solid.svg" alt="change-language" title="change-language"/>
+          </a>
+        </div>
+      </nav>
+      <div id="preamble" class="flex-center-all">
+        <div class="section column g-80 preamble-section-text">
+          <p class="preamble-title"><span>F</span>idelibus</p>
+          <p class="preamble-description">
+            Distribution and production of spare parts for railway, construction and bus transport.
+          </p>
+          <a href="#about" class="continue" title="continue"
+            >Continue
+            <lord-icon
+              src="https://cdn.lordicon.com/wtfdpwey.json"
+              trigger="loop"
+              colors="primary:#ffffff,secondary:#ffffff"
+              stroke="80"
+              style="width: 60px; height: 50px">
+            </lord-icon>
+          </a>
+        </div>
+      </div>
+
+      <div id="about" class="flex-center-all">
+        <div class="section left column g-60">
+          <div class="section-title-wrapper g-20">
+            <p class="section-content-pretitle">Company Fidelibus</p>
+            <p class="section-content-title">About us</p>
+          </div>
+          <p class="section-content-text flex-center-all">
+            We are young company that focuses on distribution and production of mechanical spare parts for transport and industial technology.
+            The name of our company comes from definion of latin word „fidelis", meaning reliable, which expresses one of the main principles of
+            our operation. Within the portfolio of services we offer, we always try to provide our client with the most comprehensive solution to a
+            specific demand.
+          </p>
+        </div>
+        <div class="section right about-img">
+          <img
+            src="static/cogs-fidelibus.svg"
+            alt="map"
+            class="section-image"
+          />
+        </div>
+      </div>
+
+      <div id="offer" class="flex-center-all">
+        <div class="section column g-40 center-content full-width">
+          <div class="section-title-wrapper g-20 blur">
+            <p class="section-content-pretitle">Our portfolio</p>
+            <p class="section-content-title">Services</p>
+            <p class="section-content-text flex-center-all">Choose from the following services.
+            </p>
+          </div>
+          <div class="fancy-content-wrapper row">
+            <div class="offer-button blur-10">
+              Engine and chassis parts<i
+                ><img src="static/cogs.svg" alt="cogs"
+              /></i>
             </div>
-            <div id="main-nav" class="collapse navbar-collapse">
-                <ul class="nav navbar-nav">
-                    <li><a href="#" class="scroll-top">Home</a></li>
-                    <li><a href="#" class="scroll-link" data-id="about">About us</a></li>
-                    <li><a href="#" class="scroll-link" data-id="services">Services</a></li>
-                    <li><a href="#" class="scroll-link" data-id="contact-us">Contacts</a></li>
-                    <li><a href="index.html"><img src="img/cz.png" height="30" width="30"></a></li>
-                </ul>
+            <div class="offer-button blur-10">
+              Electronics – recharging<i
+                ><img src="static/battery.svg" alt="battery"
+              /></i>
             </div>
-        </nav>
+            <div class="offer-button blur-10">
+              Compressed air<i><img src="static/wind.svg" alt="wind" /></i>
+            </div>
+            <div class="offer-button blur-10">
+              Cooling systems<i><img src="static/temp-low.svg" alt="temp-low" /></i>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="contact" class="flex-center-all">
+        <div class="section left">
+          <iframe
+            style="border: none"
+            src="https://frame.mapy.cz/s/rezucofuma"
+            width="100%"
+            height="100%"
+            frameborder="0"
+            title="Adress"
+          >
+          </iframe>
+        </div>
+        <div class="section right column g-20">
+          <div class="section-title-wrapper g-20">
+            <p class="section-content-pretitle">Don't hesitate to contact us</p>
+            <p class="section-content-title">Contact</p>
+          </div>
+          <p class="section-content-text flex-center-all">
+            In case of interest of our services do not hesitate to contact us (Monday – Friday:  8 am to 5 pm).
+          </p>
+          <div class="fancy-content-wrapper">
+            <p class="fancy-button">
+              Strmá 68, 74764 Budišovice
+              <i><img src="static/map.svg" alt="map" /> </i>
+            </p>
+            <a class="fancy-button" href="tel:+420-728-334-023">
+              +420 728 334 023<i><img src="static/mobile.svg" alt="mobile"></i>
+            </a>
+            <a class="fancy-button" href="mailto: info@fidelibus.cz">
+              info@fidelibus.cz
+              <i><img src="static/mail.svg" alt="email" /></i>
+            </a>
+            <a class="fancy-button" href="skype:FIDELIBUS. CZ?userinfo">
+              FIDELIBUS.CZ
+              <i><img src="static/skype-icon.svg" alt="skype" /></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div id="footer" class="flex-center-all">
+        <div><span>F</span>IDELIBUS</div>
+        <div>COPYRIGHT © 2020 FIDELIBUS S.R.O.</div>
+        <div>Realization: Michael Sláma</div>
+      </div>
     </div>
-</div>
-
-
-<div class="parallax-content baner-content" id="home">
-    <div class="container">
-        <div class="text-content">
-            <h2>Distribution and production of spare part for bus, construction and railway transport</h2>
-            <div class="primary-white-button">
-                <a href="#" class="scroll-link" data-id="about">Continue</a>
-            </div>
-        </div>
-    </div>
-</div>
-
-<section id="about" class="page-section">
-    <div class="container">
-        <div class="row tm-content-box">
-            <div class="col-lg-12 col-xl-12">
-                <div class="tm-intro-text-container">
-                    <h2 class="tm-text-primary mb-4 tm-section-title text-center">About us</h2>
-                    <div class="line-dec-section"></div>
-                    <p class="mb-4 tm-intro-text section-description">
-                        We are young company that focuses on distribution and production of mechanical spare parts for transport and industial technology.
-                        The name of our company comes from definion of latin word „<b>fidelis</b>", meaning reliable, which expresses one of the main principles of
-                        our operation. Within the portfolio of services we offer, we always try to provide our client with the most comprehensive solution to a
-                        specific demand.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section id="services" class="page-section">
-    <div class="container">
-        <div class="row tm-content-box">
-            <div class="col-lg-12 col-xl-12">
-                <div class="tm-intro-text-container">
-                    <h2 class="tm-text-primary mb-4 tm-section-title text-center">Offered services</h2>
-                    <div class="line-dec-section-services-en"></div>
-                </div>
-            </div>
-        </div>
-        <div class="row icons">
-            <div class="col-md-2 col-sm-6 col-xs-12">
-                <div class="service-item">
-                    <div class="icon">
-                        <img src="img/engine.png" height="72" width="72" alt="">
-                    </div>
-                    <h4>Engine parts</h4>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6 col-xs-12">
-                <div class="service-item">
-                    <div class="icon">
-                        <img src="img/power.png" height="72" width="72" alt="">
-                    </div>
-                    <h4>Electronics – recharging</h4>
-                </div>
-            </div>
-            <div class="col-md-2 col-sm-6 col-xs-12">
-                <div class="service-item">
-                    <div class="icon">
-                        <img src="img/axles.png" height="72" width="72" alt="">
-                    </div>
-                    <h4>Chassis parts</h4>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6 col-xs-12">
-                <div class="service-item">
-                    <div class="icon">
-                        <img src="img/air.png" height="72" width="72" alt="">
-                    </div>
-                    <h4>Compressed air</h4>
-                </div>
-            </div>
-            <div class="col-md-2 col-sm-6 col-xs-12">
-                <div class="service-item">
-                    <div class="icon">
-                        <img src="img/3228931.png" height="72" width="72" alt="">
-                    </div>
-                    <h4>Cooling systems</h4>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<div id="contact-us" class="page-section">
-    <div class="container">
-        <div class="row tm-content-box">
-            <div class="col-lg-12 col-xl-12">
-                <div class="tm-intro-text-container">
-                    <h2 class="tm-text-primary mb-4 tm-section-title text-center">Contact</h2>
-                    <div class="line-dec-section"></div>
-                    <p class="mb-4 tm-intro-text">
-                        In case of interest of our services do not hesitate to contact us (Monday – Friday:  8 am to 5 pm)
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="row contacts">
-            <div class="col-md-3 col-sm-6 col-xs-12">
-                <div class="section-heading">
-                    <h4>Address</h4>
-                    <div class="line-dec"></div>
-                    <p>Strmá 68, 74764 Budišovice</p>
-                </div>
-            </div>
-
-            <div class="col-md-3 col-sm-6 col-xs-12">
-                <div class="section-heading">
-                    <h4>Telephone</h4>
-                    <div class="line-dec"></div>
-                    <p><a href="tel:+420-728-334-023">+420 728 334 023</a></p>
-                </div>
-            </div>
-
-            <div class="col-md-3 col-sm-6 col-xs-12">
-                <div class="section-heading">
-                    <h4>Email</h4>
-                    <div class="line-dec"></div>
-                    <p><a href="mailto: info@fidelibus.cz">info@fidelibus.cz</a></p>
-                </div>
-            </div>
-
-            <div class="col-md-3 col-sm-6 col-xs-12">
-                <div class="section-heading">
-                    <h4>Skype</h4>
-                    <div class="line-dec"></div>
-                    <p><a href="skype:FIDELIBUS. CZ?userinfo">FIDELIBUS.CZ</a></p>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div id="map">
-    <iframe style="border:none" src="https://frame.mapy.cz/s/rezucofuma" width="100%" height="400" frameborder="0"></iframe>
-</div>
-
-<footer>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-4 col-sm-12">
-                <div class="logo">
-                    <a class="logo-ft scroll-top" href="#"><em>F</em>idelibus</a>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-12">
-                <div class="logo-ft-ot">
-                    <p>Copyright &copy; 2020 Fidelibus s.r.o.</p>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-12">
-                <div class="logo-ft-at">
-                    Realization: Michael Sláma
-                </div>
-            </div>
-        </div>
-    </div>
-</footer>
-<script type="text/javascript">
-    $(document).ready(function() {
-        // navigation click actions
-        $('.scroll-link').on('click', function(event){
-            event.preventDefault();
-            var sectionID = $(this).attr("data-id");
-            scrollToID('#' + sectionID, 750);
-        });
-        // scroll to top action
-        $('.scroll-top').on('click', function(event) {
-            event.preventDefault();
-            $('html, body').animate({scrollTop:0}, 'slow');
-        });
-        // mobile nav toggle
-        $('#nav-toggle').on('click', function (event) {
-            event.preventDefault();
-            $('#main-nav').toggleClass("open");
-        });
-    });
-    // scroll function
-    function scrollToID(id, speed){
-        var offSet = 50;
-        var targetOffset = $(id).offset().top - offSet;
-        var mainNav = $('#main-nav');
-        $('html,body').animate({scrollTop:targetOffset}, speed);
-        if (mainNav.hasClass("open")) {
-            mainNav.css("height", "1px").removeClass("in").addClass("collapse");
-            mainNav.removeClass("open");
-        }
-    }
-    if (typeof console === "undefined") {
-        console = {
-            log: function() { }
-        };
-    }
-
-</script>
-</body>
+  </body>
 </html>
