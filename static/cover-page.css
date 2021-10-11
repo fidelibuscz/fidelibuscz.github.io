@@ -1,0 +1,38 @@
+.cover-page{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 0;
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 35rem;
+    padding: 15rem 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+ .cover-page h1 {
+        font-size: calc(2.85rem + 6.3vw);
+        line-height: calc(2.85rem + 10.6vw);
+        letter-spacing: 0.8rem;
+    
+}
+.cover-page h2 {
+        max-width: 80vw;
+        line-height: calc(2.85rem + 1.05vw);
+        text-shadow: 2px;
+        text-shadow: 0 0 4px black;
+}
+
+@media (max-width: 444px) {
+    .cover-page h1{
+        font-size: calc(2.85rem + 4.2vw);
+        letter-spacing: 0.4rem;
+    }
+
+    .cover-page h2 {
+        line-height: calc(2.45rem + 1.05vw);
+}
+}

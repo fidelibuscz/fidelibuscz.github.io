@@ -1,27 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1.0 maximum-scale=5.0"/>
-    <meta
+      <meta
       name="description"
       content="Distribution and production of spare part for bus, construction and railway transport."/>
     <title>Fidelibus</title>
-    <link rel="preload" href="style.css" as="style" />
-    <link rel="stylesheet" href="style.css" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      as="style"
-      rel="stylesheet preload prefetch"
-      href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap"
-      type="text/css"
-      crossorigin="anonymous"/>
-    <script src="https://cdn.lordicon.com/libs/mssddfmo/lord-icon-2.1.0.js"></script>
+    <!-- Bootstrap core CSS -->
+    <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+    <link rel="preload" href="static/heroes.css" as="style" />
+    <link rel="preload" href="static/features.css" as="style" />
+    <link rel="preload" href="static/over-page.css" as="style" />
+    <link rel="preload" href="static/general.css" as="style" />
+
+    <link href="static/heroes.css" rel="stylesheet" />
+    <link href="static/features.css" rel="stylesheet" />
+    <link href="static/cover-page.css" rel="stylesheet" />
+    <link href="static/general.css" rel="stylesheet" />
+
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-1GDBF51BYY"></script>
     <script>
           window.dataLayer = window.dataLayer || [];
@@ -33,138 +50,193 @@
     </script>
 
   </head>
-  <body id="home">
-    <div class="content sides-p-60">
-      <nav class="blur-10">
-        <a href="#home" class="nav-title"><span>F</span>IDELIBUS</a>
-        <div>
-          <a href="#about">O nás</a>
-          <a href="#offer">Služby</a>
-          <a href="#contact">Kontakt</a>
-          <a href="index_en.html">
-            <img src="static/language-solid.svg" alt="change-language" title="change-language"/>
-          </a>
-        </div>
-      </nav>
-      <div id="preamble" class="flex-center-all">
-        <div class="section column g-80 preamble-section-text">
-          <p class="preamble-title"><span>F</span>idelibus</p>
-          <p class="preamble-description">
-            Prodej a výroba náhradních dílů na železniční, stavební a
-            autobusovou dopravu.
-          </p>
-          <a href="#about" class="continue" title="continue"
-            >Pokračovat
-            <lord-icon
-              src="https://cdn.lordicon.com/wtfdpwey.json"
-              trigger="loop"
-              colors="primary:#ffffff,secondary:#ffffff"
-              stroke="80"
-              style="width: 60px; height: 50px">
-            </lord-icon>
-          </a>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top blur-10">
+      <div class="container col-xxl-10 px-4">
+        <a class="navbar-brand l-space" href="#"><span class="fidel-color">F</span>IDELIBUS</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarCollapse"
+          aria-controls="navbarCollapse"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+            <li class="nav-item px-3">
+              <a class="nav-link text-light l-space" href="#about">O nás</a>
+            </li>
+            <li class="nav-item px-3">
+              <a class="nav-link text-light l-space" href="#services">Služby</a>
+            </li>
+            <li class="nav-item px-3">
+              <a class="nav-link text-light l-space" href="#contact">Kontakt</a>
+            </li>
+            <li class="nav-item px-3">
+              <a class="nav-link text-light l-space d-flex align-items-center" href="index_en.html">
+                <img src="static/images/language-solid.svg" style="width:32px; height:32px;" alt="change-language" title="change-language"/>
+              </a>
+            </li>
+          </ul>
+          </form>
         </div>
       </div>
-
-      <div id="about" class="flex-center-all">
-        <div class="section left column g-60">
-          <div class="section-title-wrapper g-20">
-            <p class="section-content-pretitle">Společnost Fidelibus</p>
-            <p class="section-content-title">O nás</p>
+    </nav>
+    <header class="cover-page bg-image cover-container d-flex"
+        style="height: 100vh;
+        background-image:
+        linear-gradient(to bottom, rgba(25, 25, 25, 0.65), rgba(0, 0, 0, 0.15)),
+        url('static/images/pexels-chait-goli-20317582-min.webp')";
+    >
+    <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
+      <div class="d-flex justify-content-center">
+          <div class="text-center">
+              <h1 class="mx-auto my-0 text-white"><span class="fidel-color">F</span>idelibus</h1>
+              <h2 class="mx-auto mt-2 mb-5 text-white">Prodej a výroba náhradních dílů na železniční, stavební a autobusovou dopravu.</h2>
+              <a class="btn btn-lg text-white continue-btn" href="#about">Pokračovat</a>
           </div>
-          <p class="section-content-text flex-center-all">
-            Jsme mladá společnost, která se zaměřuje na prodej a výrobu
-            náhradních dílů přepravní a průmyslové techniky. Název naší
-            společnosti vychází z definice latinského slova „fidelis", které
-            znamená spolehlivý, což vyjadřuje jednu z hlavních zásad našeho
-            fungování. V rámci portfolia námi nabízených služeb se vždy snažíme
-            našemu klientovi poskytnout co nejkomplexnější řešení konkrétní
-            poptávky.
+      </div>
+  </div>
+
+  </header>
+
+    <div class="b-example-divider" id="about"></div>
+    <div class="container col-xxl-10 px-4 py-5">
+      <div class="row flex-lg-row align-items-center g-5 py-5">
+        <div class="col-lg-6">
+          <h1 class="display-5 fw-bold lh-1 mb-3">
+            O nás<span class="fidel-color">.</span>
+          </h1>
+          <p class="lead">
+            Jsme mladá společnost, která se zaměřuje na prodej a výrobu náhradních dílů přepravní a průmyslové techniky. 
+            Název naší společnosti vychází z definice latinského slova „fidelis", které znamená spolehlivý, což vyjadřuje jednu z hlavních zásad našeho fungování. 
+            V rámci portfolia námi nabízených služeb se vždy snažíme našemu klientovi poskytnout co nejkomplexnější řešení konkrétní poptávky.
           </p>
         </div>
-        <div class="section right about-img">
+        <div class="col-10 col-sm-8 col-lg-6">
           <img
-            src="static/cogs-fidelibus.svg"
-            alt="map"
-            class="section-image"
+            src="static/images/5950399608_0488b833b6_o-min.webp"
+            class="d-block mx-lg-auto img-fluid rounded-borders"
+            alt="About image"
+            width="700"
+            height="500"
+            loading="lazy"
           />
         </div>
       </div>
+    </div>
 
-      <div id="offer" class="flex-center-all">
-        <div class="section column g-40 center-content full-width">
-          <div class="section-title-wrapper g-20 blur">
-            <p class="section-content-pretitle">Naše portfolio</p>
-            <p class="section-content-title">Služby</p>
-            <p class="section-content-text flex-center-all">
-              Vybírejte z následujících služeb.
+    <div class="b-example-divider" id="services"></div>
+    <main>
+      <h1 class="visually-hidden">Sevices</h1>
+
+      <div class="container col-xxl-10 px-4 py-5" id="featured-3">
+        <h1 class="display-5 fw-bold lh-1 mb-3 pb-2 border-bottom">
+          Naše služby<span class="fidel-color">.</span>
+        </h1>
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+          <div class="feature col">
+            <div class="feature-icon bg-fidelibus bg-gradient">
+              <img class="bi" width="32" height="32" src="static/images/cogs.svg" alt="engine">
+            </div>
+            <h2>Motorové díly</h2>
+            <p>
             </p>
           </div>
-          <div class="fancy-content-wrapper row">
-            <div class="offer-button blur-10">
-              Motorové a podvozkové díly<i
-                ><img src="static/cogs.svg" alt="cogs"
-              /></i>
+          <div class="feature col">
+            <div class="feature-icon bg-fidelibus bg-gradient">
+              <img class="bi" width="32" height="32" src="static/images/cogs.svg" alt="axels">
             </div>
-            <div class="offer-button blur-10">
-              Elektronika - dobíjení<i
-                ><img src="static/battery.svg" alt="battery"
-              /></i>
+            <h2>Podvozkové díly</h2>
+            <p>
+            </p>
+          </div>
+          <div class="feature col">
+            <div class="feature-icon bg-fidelibus bg-gradient">
+              <img class="bi" width="32" height="32" src="static/images/battery.svg" alt="battery">
             </div>
-            <div class="offer-button blur-10">
-              Stlačený vzduch<i><img src="static/wind.svg" alt="wind" /></i>
+            <h2>Elektronika - dobíjení</h2>
+            <p>
+            </p>
+          </div>
+          <div class="feature col">
+            <div class="feature-icon bg-fidelibus bg-gradient">
+              <img class="bi" width="32" height="32" src="static/images/wind.svg" alt="air">
             </div>
-            <div class="offer-button blur-10">
-              Chlazení<i><img src="static/temp-low.svg" alt="temp-low" /></i>
+            <h2>Stlačený vzduch</h2>
+            <p>
+            </p>
+          </div>
+          <div class="feature col">
+            <div class="feature-icon bg-fidelibus bg-gradient">
+              <img class="bi" width="32" height="32" src="static/images/temp-low.svg" alt="cooling">
             </div>
+            <h2>Chlazení</h2>
+            <p>
+            </p>
           </div>
         </div>
       </div>
+    </main>
 
-      <div id="contact" class="flex-center-all">
-        <div class="section left">
-          <iframe
-            style="border: none"
-            src="https://frame.mapy.cz/s/rezucofuma"
-            width="100%"
-            height="100%"
-            frameborder="0"
-            title="Adress"
-          >
+    <div class="b-example-divider" id="contact"></div>
+    <div class="container col-xxl-10 px-4 py-5">
+      <div class="row flex-lg-row align-items-center g-5 py-5">
+        <div class="col-10 col-sm-8 col-lg-6">
+          <iframe 
+          class="d-block mx-lg-auto rounded-borders"
+          style="border: none" 
+          src="https://frame.mapy.cz/s/rezucofuma" 
+          width="100%"
+          height="400"
+          frameborder="0" 
+          title="Map">
           </iframe>
         </div>
-        <div class="section right column g-20">
-          <div class="section-title-wrapper g-20">
-            <p class="section-content-pretitle">Neváhejte se s námi spojit</p>
-            <p class="section-content-title">Kontakt</p>
-          </div>
-          <p class="section-content-text flex-center-all">
-            V případě zájmu o naše služby nás kontaktujte (Pondělí - Pátek: 8:00 - 17:00).
+        <div class="col-lg-6">
+          <h1 class="display-5 fw-bold lh-1 mb-3">
+            Kontakt<span class="fidel-color">.</span>
+          </h1>
+          <p class="lead">
+            V případě zájmu o naše služby nás kontaktujte<br>
+            Pondělí - Pátek: 8:00 - 17:00<br><br>
+            <div class="contact-wrapper">
+            <p><p class="lead fw-bold">Adresa:</p> <p class="lead text-dark" href="#">Strmá 68, 74764 Budišovice</p></p><br>
+            <p><p class="lead fw-bold">Telefon:</p> <a class="lead fidel-color" href="tel:+420-728-334-023">+420 728 334 023</a></p><br>
+            <p><p class="lead fw-bold">Mail:</p> <a class="lead fidel-color" href="mailto: info@fidelibus.cz">info@fidelibus.cz</a></p><br>
+            <p><p class="lead fw-bold">Skype:</p> <a class="lead fidel-color" href="skype:FIDELIBUS. CZ?userinfo">FIDELIBUS.CZ</a></p><br>
+            </div>
           </p>
-          <div class="fancy-content-wrapper">
-            <p class="fancy-button">
-              Strmá 68, 74764 Budišovice
-              <i><img src="static/map.svg" alt="map" /> </i>
-            </p>
-            <a class="fancy-button" href="tel:+420-728-334-023">
-              +420 728 334 023<i><img src="static/mobile.svg" alt="mobile"></i>
-            </a>
-            <a class="fancy-button" href="mailto: info@fidelibus.cz">
-              info@fidelibus.cz
-              <i><img src="static/mail.svg" alt="email" /></i>
-            </a>
-            <a class="fancy-button" href="skype:FIDELIBUS. CZ?userinfo">
-              FIDELIBUS.CZ
-              <i><img src="static/skype-icon.svg" alt="skype" /></i>
-            </a>
-          </div>
         </div>
       </div>
-      <div id="footer" class="flex-center-all">
-        <div><span>F</span>IDELIBUS</div>
-        <div>COPYRIGHT © 2020 FIDELIBUS S.R.O.</div>
-        <div>Realizace: Michael Sláma</div>
-      </div>
     </div>
+
+    <div class="b-example-divider"></div>
+    <div class="container">
+      <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-muted">Fidelibus</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link px-2 text-muted">O nás</a>
+          </li>
+          <li class="nav-item">
+            <a href="#services" class="nav-link px-2 text-muted">Služby</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link px-2 text-muted">Kontakt</a>
+          </li>
+        </ul>
+        
+        <p class="text-center text-muted">&copy; 2021 <span class="fidel-color">F</span>IDELIBUS S.R.O. | Michael Sláma</p>
+      </footer>
+    </div>
+
+    <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>

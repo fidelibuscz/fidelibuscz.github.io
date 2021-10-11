@@ -1,0 +1,69 @@
+.bg-fidelibus{
+    background-color:#F74300;
+}
+
+.fidel-color{
+    color:#F74300
+}
+
+.contact-wrapper p{
+    display: inline-block;
+}
+
+.contact-wrapper *{
+    text-decoration: none;
+}
+
+.contact-wrapper a:hover{
+    color: #C41000;
+}
+
+.rounded-borders{
+    border-radius: 5px;
+}
+
+.blur-10 {
+    backdrop-filter: brightness(35%) saturate(90%) blur(10px);
+    -webkit-backdrop-filter: brightness(35%) saturate(90%) blur(10px);
+  }
+
+.l-space{
+    letter-spacing: 1px;
+}
+
+.continue-btn{
+    background-color:#F74300;
+}
+
+.continue-btn:hover{
+    background-color: #C41000;
+
+}
+
+.navbar-nav .nav-link{
+    font-size: 0.8rem;
+}
+.nav-item a {
+    height: 36px !important;
+    border-bottom: 1px solid transparent;
+}
+
+.nav-item a:hover{
+    border-bottom: 1px solid #f74300;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+@media (max-width: 767px) {
+    .nav-item a:hover{
+        border-bottom: 1px solid transparent !important;
+        color: #f74300 !important;
+    }
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
