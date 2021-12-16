@@ -1,61 +1,64 @@
-.bg-fidelibus{
-    background-color:#F74300;
+.bg-fidelibus {
+    background-color: #F74300;
 }
 
-.fidel-color{
-    color:#F74300
+.fidel-color {
+    color: #F74300
 }
 
-.contact-wrapper p{
+.contact-wrapper p {
     display: inline-block;
 }
 
-.contact-wrapper *{
+.contact-wrapper * {
     text-decoration: none;
 }
 
-.contact-wrapper a:hover{
+.contact-wrapper a:hover {
     color: #C41000;
 }
 
-.rounded-borders{
+.rounded-borders {
     border-radius: 5px;
 }
 
 .blur-10 {
     backdrop-filter: brightness(35%) saturate(90%) blur(10px);
     -webkit-backdrop-filter: brightness(35%) saturate(90%) blur(10px);
-  }
+}
 
-.l-space{
+.l-space {
     letter-spacing: 1px;
 }
 
-.continue-btn{
-    background-color:#F74300;
+.continue-btn {
+    background-color: #F74300;
 }
 
-.continue-btn:hover{
+.continue-btn:hover {
     background-color: #C41000;
-
+    transform: scale(1.05);
+    transition: 0.3s;
 }
 
-.navbar-nav .nav-link{
-    font-size: 0.8rem;
+
+.navbar-brand{
+    font-size: 1.75rem;
+    letter-spacing: 0.1rem;
 }
 .nav-item a {
     height: 36px !important;
     border-bottom: 1px solid transparent;
 }
 
-.nav-item a:hover{
+.nav-item a:hover {
     border-bottom: 1px solid #f74300;
     -webkit-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
 }
 
 @media (max-width: 767px) {
-    .nav-item a:hover{
+    .nav-item a:hover {
         border-bottom: 1px solid transparent !important;
         color: #f74300 !important;
     }
@@ -66,4 +69,18 @@
 .navbar-toggler-icon:focus {
     outline: none;
     box-shadow: none;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.light-gray {
+    color: rgb(200, 200, 200) !important;
+    text-decoration: none;
+}
+
+.navbar-nav li{
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
